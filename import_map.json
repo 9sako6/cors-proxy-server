@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "server": "https://deno.land/std@0.155.0/http/server.ts",
+    "asserts": "https://deno.land/std@0.170.0/testing/asserts.ts",
+    "mock": "https://deno.land/std@0.168.0/testing/mock.ts"
+  }
+}

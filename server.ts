@@ -1,3 +1,4 @@
-import { serve } from "https://deno.land/std@0.155.0/http/server.ts";
+import { serve } from "server";
+import { handler } from "./src/handler/handler.ts";
 
-serve((_req: Request) => new Response("Hello, World!"));
+serve(handler);
