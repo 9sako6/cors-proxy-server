@@ -26,7 +26,7 @@ const InvalidQuestResponse = new Response(
 
 const InvalidMethodResponse = new Response(
   JSON.stringify({
-    title: "Only GET method is allowd.",
+    title: "Only GET method is allowed.",
   }),
   {
     status: 403,

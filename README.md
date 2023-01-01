@@ -28,7 +28,7 @@ https://9sako6-cors-proxy-server.deno.dev?quest=<URL>
 
 Notes:
 
-- Only GET method is allowd
+- Only GET method is allowed
 - Response specified by URL must return HTML
 
 Request examples:

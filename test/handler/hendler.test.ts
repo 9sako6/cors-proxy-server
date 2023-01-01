@@ -61,7 +61,7 @@ Deno.test("Return 400 if the request method is not GET", async () => {
 
   assertEquals(res.status, 403);
   assertEquals(await res.json(), {
-    title: "Only GET method is allowd.",
+    title: "Only GET method is allowed.",
   });
   assertEquals(res.headers.get("content-type"), "application/problem+json");
 });
