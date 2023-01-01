@@ -1,5 +1,7 @@
 # cors-proxy-server
 
+[![CI](https://github.com/9sako6/cors-proxy-server/actions/workflows/ci.yml/badge.svg)](https://github.com/9sako6/cors-proxy-server/actions/workflows/ci.yml)
+
 This is a proxy which adds CORS headers to the proxied request.
 
 Because there is a limit to the number of requests that can be processed per
