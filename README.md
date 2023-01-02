@@ -37,3 +37,17 @@ Request examples:
 
 - `https://9sako6-cors-proxy-server.deno.dev?quest=https://www.google.com`
 - `https://9sako6-cors-proxy-server.deno.dev?quest=https://github.com`
+
+### Docker Image
+
+A Docker image is available to start the server. The server runs on
+`http://localhost:8000/` by the following command.
+
+```bash
+docker run -p 8000:8000 ghcr.io/9sako6/cors-proxy-server:latest
+```
+
+To authenticate to the Container registry (`ghcr.io`), please see the following
+documentation.
+
+[Authenticating to the Container registry - GitHub Docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry)
